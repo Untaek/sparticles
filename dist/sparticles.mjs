@@ -1366,8 +1366,8 @@ Sparticles.prototype.drawOffscreenCanvasForImage = function (image, color, canva
   canvas.height = size;
   ctx.drawImage(image, 0, 0, size, size, 0, 0, size, size);
   ctx.globalCompositeOperation = "source-atop";
-  ctx.fillStyle = color;
-  ctx.fillRect(0, 0, size, size);
+//   ctx.fillStyle = color;
+//   ctx.fillRect(0, 0, size, size);
   return canvas;
 };
 /**
